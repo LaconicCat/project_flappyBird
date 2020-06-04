@@ -2,12 +2,15 @@
 (function(){
     var Bird = window.Bird = function(){
         //随机鸟的颜色
-        this.color = parseInt(Math.random() * 3);
+        this.color = parseInt(Math.random() * 6);
         //决定用图，小鸟用三种颜色，每个颜色有三种翅膀状态。
         this.imageArr = [
             game.R["bird" + this.color + "_0"],
             game.R["bird" + this.color + "_1"],
-            game.R["bird" + this.color + "_2"]
+            game.R["bird" + this.color + "_2"],
+            game.R["bird" + this.color + "_3"],
+            game.R["bird" + this.color + "_4"],
+            game.R["bird" + this.color + "_5"]
         ];
         //翅膀
         this.wingState = 0;

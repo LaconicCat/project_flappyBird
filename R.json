@@ -44,6 +44,15 @@
         {"name": "b9", "url" : "R/images/9.png"},
         {"name": "b10", "url" : "R/images/10.png"},
         {"name": "b11", "url" : "R/images/11.png"},
-        {"name": "game_over", "url" : "R/images/text_game_over.png"}
+        {"name": "game_over", "url" : "R/images/text_game_over.png"},
+        {"name": "bird3_0", "url" : "R/images/pikachu0.png"},
+        {"name": "bird3_1", "url" : "R/images/pikachu1.png"},
+        {"name": "bird3_2", "url" : "R/images/pikachu3.png"},
+        {"name": "bird4_0", "url" : "R/images/charmander0.png"},
+        {"name": "bird4_1", "url" : "R/images/charmander1.png"},
+        {"name": "bird4_2", "url" : "R/images/charmander2.png"},
+        {"name": "bird5_0", "url" : "R/images/squirtle0.png"},
+        {"name": "bird5_1", "url" : "R/images/squirtle1.png"},
+        {"name": "bird5_2", "url" : "R/images/squirtle2.png"}
     ]
 }
