@@ -154,6 +154,7 @@
         this.sceneNumber = number;
         switch(this.sceneNumber){
             case 1:
+                game.bird = new Bird();
                 //进入1号场景瞬间的事情
                 game.bird.r = 0;
                 this.logoY = -48;
@@ -188,14 +189,14 @@
             //点击的时候判断场景
             switch(self.sceneNumber){
                 case 1:
-                    game.bird = new Bird();
                     let width = document.documentElement.clientWidth;
                     if(width > 414){
                         self.enter(2);
-                    }
-                    //进入一号场景一瞬间要做的事情
-                    if(mouseX > self.button_playX && mouseX < self.button_playX + 116 && mouseY > self.button_playY && mouseY < self.button_playY + 70){
-                        self.enter(2);
+                    } else {
+                        //进入一号场景一瞬间要做的事情
+                        if(mouseX > self.button_playX && mouseX < self.button_playX + 116 && mouseY > self.button_playY && mouseY < self.button_playY + 70){
+                            self.enter(2);
+                        }
                     }
                     break;
                 case 2:
